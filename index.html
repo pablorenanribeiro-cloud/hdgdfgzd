@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital Acessível</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Adicionando FontAwesome para os ícones de categorias -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Cabeçalho e Menu -->
+    <header>
+        <div class="header-container">
+            <h1>Biblioteca Digital Acessível</h1>
+            <p>Encontre materiais de leitura e estudo de maneira simples e organizada.</p>
+        </div>
+        <nav aria-label="Menu de navegação principal">
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#livros">Livros</a></li>
+                <li><a href="#categorias">Categorias</a></li>
+                <li><a href="#sobre">Sobre o projeto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        
+        <!-- Seção Início -->
+        <section id="inicio" class="secao">
+            <h2>Bem-vindo à nossa Biblioteca</h2>
+            <p>Explore nosso acervo e encontre livros e materiais educativos selecionados para você. Navegue pelas categorias ou confira os destaques abaixo.</p>
+        </section>
+
+        <!-- Seção Livros -->
+        <section id="livros" class="secao bg-claro">
+            <h2>Acervo de Livros</h2>
+            <div class="grid-livros">
+                
+                <!-- Card 1 -->
+                <article class="card-livro">
+                    <img src="https://via.placeholder.com/300x400.png?text=Capa+Tecnologia" alt="Capa ilustrativa do livro Introdução à Programação, com símbolos de código no fundo">
+                    <div class="card-conteudo">
+                        <h3>Introdução à Programação</h3>
+                        <p class="autor"><strong>Autor:</strong> Ana Silva</p>
+                        <p class="categoria"><span class="badge">Tecnologia</span></p>
+                        <p class="descricao">Aprenda os conceitos básicos da lógica de programação de forma simples e direta.</p>
+                        <button class="btn" aria-label="Ver detalhes do livro Introdução à Programação">Ver detalhes</button>
+                    </div>
+                </article>
+
+                <!-- Card 2 -->
+                <article class="card-livro">
+                    <img src="https://via.placeholder.com/300x400.png?text=Capa+Literatura" alt="Capa ilustrativa do livro Poemas ao Vento, com imagem de folhas voando">
+                    <div class="card-conteudo">
+                        <h3>Poemas ao Vento</h3>
+                        <p class="autor"><strong>Autor:</strong> Carlos Drummond</p>
+                        <p class="categoria"><span class="badge">Literatura</span></p>
+                        <p class="descricao">Uma coletânea de poesias sobre a natureza e as emoções humanas.</p>
+                        <button class="btn" aria-label="Ver detalhes do livro Poemas ao Vento">Ver detalhes</button>
+                    </div>
+                </article>
+
+                <!-- Card 3 -->
+                <article class="card-livro">
+                    <img src="https://via.placeholder.com/300x400.png?text=Capa+Ciencias" alt="Capa ilustrativa do livro O Mundo Microscópico, mostrando células">
+                    <div class="card-conteudo">
+                        <h3>O Mundo Microscópico</h3>
+                        <p class="autor"><strong>Autor:</strong> Dr. Roberto Mendes</p>
+                        <p class="categoria"><span class="badge">Ciências</span></p>
+                        <p class="descricao">Descubra como os organismos unicelulares afetam o nosso dia a dia e o meio ambiente.</p>
+                        <button class="btn" aria-label="Ver detalhes do livro O Mundo Microscópico">Ver detalhes</button>
+                    </div>
+                </article>
+
+                <!-- Card 4 -->
+                <article class="card-livro">
+                    <img src="https://via.placeholder.com/300x400.png?text=Capa+Matematica" alt="Capa ilustrativa do livro Matemática Descomplicada, com números e equações">
+                    <div class="card-conteudo">
+                        <h3>Matemática Descomplicada</h3>
+                        <p class="autor"><strong>Autor:</strong> Julia Fernandes</p>
+                        <p class="categoria"><span class="badge">Matemática</span></p>
+                        <p class="descricao">Aprenda a aplicar a matemática básica na sua vida financeira e pessoal.</p>
+                        <button class="btn" aria-label="Ver detalhes do livro Matemática Descomplicada">Ver detalhes</button>
+                    </div>
+                </article>
+
+                <!-- Card 5 -->
+                <article class="card-livro">
+                    <img src="https://via.placeholder.com/300x400.png?text=Capa+Historia" alt="Capa ilustrativa do livro História do Brasil Império, com a bandeira imperial">
+                    <div class="card-conteudo">
+                        <h3>O Brasil Império</h3>
+                        <p class="autor"><strong>Autor:</strong> João Pedro Souza</p>
+                        <p class="categoria"><span class="badge">História</span></p>
+                        <p class="descricao">Uma viagem ao passado para entender os principais eventos que moldaram o país.</p>
+                        <button class="btn" aria-label="Ver detalhes do livro O Brasil Império">Ver detalhes</button>
+                    </div>
+                </article>
+
+                <!-- Card 6 -->
+                <article class="card-livro">
+                    <img src="https://via.placeholder.com/300x400.png?text=Capa+Desenvolvimento" alt="Capa ilustrativa do livro Foco e Disciplina, mostrando um alvo">
+                    <div class="card-conteudo">
+                        <h3>Foco e Disciplina</h3>
+                        <p class="autor"><strong>Autor:</strong> Marcos Antônio</p>
+                        <p class="categoria"><span class="badge">Desenvolvimento pessoal</span></p>
+                        <p class="descricao">Técnicas práticas para organizar sua rotina e alcançar seus objetivos diários.</p>
+                        <button class="btn" aria-label="Ver detalhes do livro Foco e Disciplina">Ver detalhes</button>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- Seção Categorias -->
+        <section id="categorias" class="secao">
+            <h2>Categorias de Estudo</h2>
+            <div class="grid-categorias">
+                <div class="card-categoria">
+                    <i class="fa-solid fa-laptop-code icone-cat" aria-hidden="true"></i>
+                    <h3>Tecnologia</h3>
+                </div>
+                <div class="card-categoria">
+                    <i class="fa-solid fa-book-open icone-cat" aria-hidden="true"></i>
+                    <h3>Literatura</h3>
+                </div>
+                <div class="card-categoria">
+                    <i class="fa-solid fa-flask icone-cat" aria-hidden="true"></i>
+                    <h3>Ciências</h3>
+                </div>
+                <div class="card-categoria">
+                    <i class="fa-solid fa-calculator icone-cat" aria-hidden="true"></i>
+                    <h3>Matemática</h3>
+                </div>
+                <div class="card-categoria">
+                    <i class="fa-solid fa-landmark icone-cat" aria-hidden="true"></i>
+                    <h3>História</h3>
+                </div>
+                <div class="card-categoria">
+                    <i class="fa-solid fa-user-graduate icone-cat" aria-hidden="true"></i>
+                    <h3>Desenvolvimento Pessoal</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre o Projeto -->
+        <section id="sobre" class="secao bg-claro">
+            <h2>Sobre o projeto</h2>
+            <p>A Biblioteca Digital Acessível foi criada com o propósito de fornecer materiais educativos com foco em usabilidade e acessibilidade para todos os usuários. Adotamos fontes legíveis, alto contraste e uma navegação intuitiva e estruturada.</p>
+        </section>
+
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 Biblioteca Digital Acessível. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
